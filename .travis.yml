@@ -18,6 +18,7 @@ script:
 #- coverage run --source=test
 - pyflakes .
 - pycodestyle --statistics --count
+- coverage run tests.py
 
 notifications:
   hipchat:
